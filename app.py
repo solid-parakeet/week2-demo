@@ -3,6 +3,9 @@ from sklearn.datasets import load_digits
 from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import train_test_split
 import socket
+import os
+import psycopg2
+
 
 app = Flask(__name__)
 
